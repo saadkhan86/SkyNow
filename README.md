@@ -185,7 +185,7 @@ Ensure all environment variables (e.g., `OPENWEATHER_API_KEY`, `REACT_APP_API_BA
 
 *   [![GitHub](https://img.shields.io/badge/GitHub-saadkhan86-black?style=flat&logo=github)](https://github.com/saadkhan86)
 *   [![LinkedIn](https://img.shields.io/badge/LinkedIn-Saad_Khan-blue?style=flat&logo=linkedin)](https://www.linkedin.com/in/your-profile/)
-*   [![Portfolio](https://img.shields.io/badge/Portfolio-saadkhan.dev-brightgreen?style=flat)](https://www.saadkhan.dev)
+*   [![Portfolio](https://img.shields.io/badge/Portfolio-saadtecz.wordpress.com-brightgreen?style=flat)](https://www.saadkhan.dev)
 
 ---
 
