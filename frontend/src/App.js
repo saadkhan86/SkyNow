@@ -1,7 +1,7 @@
 import "./App.css";
 import { Signup } from "./Signup/Signup";
 import { Weather } from "./Weather/Weather";
-import { BrowserRouter, Routes, Route, useLocation, useNavigate } from "react-router-dom";
+import { BrowserRouter, Routes, Route, useLocation, useNavigate, Navigate } from "react-router-dom";
 import styles from "./Weather/Weather.module.css";
 import { NotFound } from "./NotFound/NotFound";
 import { useEffect, useState } from "react";
@@ -60,8 +60,10 @@ function AppContent() {
     <div className="App">
       <Navbar />
       <Routes>
+        {/* <Route path="/" element={<Navigate to="/home" replace />} /> */}
+        <Route path="/" element={<Navigate to="/weather" replace />}/>
         <Route path="/signup" element={<Signup />} />
-        <Route path="/home" element={<Weather />} />
+        <Route path="/weather" element={<Weather />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
     </div>
